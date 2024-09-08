@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    grid-area: navbar;
+    background-color: gray;
+   
+    
+
+}
+
+.categoría{
+    grid-area: categoría;
+    background-color: aliceblue;
+    display: flex;
+    
+   
+    
+
+}
+
+.productos{
+    grid-area: productos;
+   background-color: antiquewhite;
+    display: flex;
+   align-items: center;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxprincipal{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas: 
+    'navbar navbar'
+    'categoría productos'
+    'footer footer';
+    height: 100vw;
+    
+
+   
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+
